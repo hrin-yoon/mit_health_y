@@ -11,8 +11,7 @@
         android:alpha="0.5"
         app:layout_constraintStart_toStartOf="@+id/linearLayout3"
         app:layout_constraintTop_toTopOf="@+id/linearLayout3"
-        app:srcCompat="@drawable/work_out"
-        android:contentDescription="@string/work_s" />
+        app:srcCompat="@drawable/work_out" />
 
     <LinearLayout
         android:id="@+id/linearLayout3"
@@ -46,7 +45,7 @@
 
             <EditText
                 android:id="@+id/name"
-                android:layout_width="139dp"
+                android:layout_width="135dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginTop="10dp"
@@ -79,7 +78,7 @@
 
         <EditText
             android:id="@+id/birth"
-            android:layout_width="235dp"
+            android:layout_width="230dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="10dp"
@@ -90,16 +89,15 @@
             android:textColorHint="@color/black" />
 
         <LinearLayout
-            android:layout_width="wrap_content"
+            android:layout_width="323dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginTop="5dp"
             android:gravity="center"
             android:orientation="horizontal">
 
             <EditText
                 android:id="@+id/sign_up_id"
-                android:layout_width="149dp"
+                android:layout_width="142dp"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
                 android:layout_marginTop="10dp"
@@ -120,7 +118,7 @@
 
         <EditText
             android:id="@+id/sign_up_pw"
-            android:layout_width="235dp"
+            android:layout_width="230dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="10dp"
@@ -132,15 +130,15 @@
 
         <EditText
             android:id="@+id/sign_up_pw_check"
-            android:layout_width="235dp"
+            android:layout_width="230dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="10dp"
             android:autofillHints=""
             android:ems="10"
             android:hint="@string/password_check"
-            android:inputType="textPersonName"
-            android:textColorHint="@string/password" />
+            android:inputType="textPassword"
+            android:textColorHint="@color/black" />
 
         <Button
             android:id="@+id/signup_ok"

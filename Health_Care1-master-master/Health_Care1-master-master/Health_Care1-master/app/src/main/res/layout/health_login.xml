@@ -6,14 +6,13 @@
     android:layout_gravity="center">
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/work_lo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:alpha="0.5"
         app:layout_constraintStart_toStartOf="@+id/linearLayout2"
         app:layout_constraintTop_toTopOf="@+id/linearLayout2"
-        app:srcCompat="@drawable/work_out"
-        android:contentDescription="@string/work_lo" />
+        app:srcCompat="@drawable/work_out" />
 
     <LinearLayout
         android:id="@+id/linearLayout2"
@@ -41,19 +40,20 @@
             android:id="@+id/main_textInputLayout_ID"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
-        <EditText
-            android:id="@+id/login_id"
-            android:layout_width="280dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginLeft="30dp"
-            android:layout_marginTop="50dp"
-            android:layout_marginRight="30dp"
-            android:autofillHints=""
-            android:ems="10"
-            android:hint="@string/ID"
-            android:inputType="textPersonName"
-            android:textColorHint="@color/black" />
+
+            <EditText
+                android:id="@+id/login_id"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginRight="30dp"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/ID"
+                android:inputType="textPersonName"
+                android:textColorHint="@color/black" />
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout

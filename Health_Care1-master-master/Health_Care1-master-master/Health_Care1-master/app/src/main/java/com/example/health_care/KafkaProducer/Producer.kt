@@ -1,23 +1,20 @@
 package com.example.health_care.KafkaProducer
 
 // import jdk.nashorn.internal.objects.Global.print
-import android.os.Bundle
-import com.example.health_care.R
+import com.example.health_care.Health_signUp
 import org.apache.kafka.clients.producer.KafkaProducer
 import org.apache.kafka.clients.producer.ProducerConfig
 import org.apache.kafka.clients.producer.ProducerRecord
 import java.sql.DriverManager.println
 import java.util.*
 
-class Producer  {
-
+class Producer {
     companion object {
         @JvmStatic
         fun main(args: Array<String>) {
 
-
             val TOPIC_NAME : String= "login"
-            val BOOTSTRAP_SERVERS :String = "13.209.87.167:9092"
+            val BOOTSTRAP_SERVERS :String = "localhost:9092"
 
             val configs = Properties()
 
