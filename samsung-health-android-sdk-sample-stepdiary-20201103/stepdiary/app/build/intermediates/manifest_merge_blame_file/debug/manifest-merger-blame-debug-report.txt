@@ -1,0 +1,84 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3    ~ Copyright (C) 2014 Samsung Electronics Co., Ltd. All rights reserved.
+4    ~
+5    ~ Mobile Communication Division,
+6    ~ Digital Media and Communications Business, Samsung Electronics Co., Ltd.
+7    ~
+8    ~ This software and its documentation are confidential and proprietary
+9    ~ information of Samsung Electronics Co., Ltd.  No part of the software and
+10    ~ documents may be copied, reproduced, transmitted, translated, or reduced to
+11    ~ any electronic medium or machine-readable form without the prior written
+12    ~ consent of Samsung Electronics.
+13    ~
+14    ~ Samsung Electronics makes no representations with respect to the contents,
+15    ~ and assumes no responsibility for any errors that might appear in the
+16    ~ software and documents. This publication and the contents hereof are subject
+17    ~ to change without notice.
+18-->
+19<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+20    package="com.samsung.android.app.stepdiary"
+21    android:versionCode="1"
+22    android:versionName="1.0" >
+23
+24    <uses-sdk
+25        android:minSdkVersion="23"
+25-->C:\Users\user\Desktop\samsung-health-android-sdk-sample-stepdiary-20201103\stepdiary\app\src\main\AndroidManifest.xml
+26        android:targetSdkVersion="30" />
+26-->C:\Users\user\Desktop\samsung-health-android-sdk-sample-stepdiary-20201103\stepdiary\app\src\main\AndroidManifest.xml
+27
+28    <uses-permission android:name="android.permission.INTERNET" />
+28-->C:\Users\user\Desktop\samsung-health-android-sdk-sample-stepdiary-20201103\stepdiary\app\src\main\AndroidManifest.xml:24:5-67
+28-->C:\Users\user\Desktop\samsung-health-android-sdk-sample-stepdiary-20201103\stepdiary\app\src\main\AndroidManifest.xml:24:22-64
+29
+30    <queries>
+30-->C:\Users\user\Desktop\samsung-health-android-sdk-sample-stepdiary-20201103\stepdiary\app\src\main\AndroidManifest.xml:26:5-28:15
+31        <package android:name="com.sec.android.app.shealth" />
+31-->C:\Users\user\Desktop\samsung-health-android-sdk-sample-stepdiary-20201103\stepdiary\app\src\main\AndroidManifest.xml:27:9-63
+31-->C:\Users\user\Desktop\samsung-health-android-sdk-sample-stepdiary-20201103\stepdiary\app\src\main\AndroidManifest.xml:27:18-60
+32    </queries>
+33
+34    <application
+34-->C:\Users\user\Desktop\samsung-health-android-sdk-sample-stepdiary-20201103\stepdiary\app\src\main\AndroidManifest.xml:30:5-49:19
+35        android:allowBackup="true"
+35-->C:\Users\user\Desktop\samsung-health-android-sdk-sample-stepdiary-20201103\stepdiary\app\src\main\AndroidManifest.xml:31:9-35
+36        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+36-->[androidx.core:core:1.1.0] C:\Users\user\Desktop\방학\프로젝트\caches\transforms-2\files-2.1\2fa1bb487a9eb0e8c1935a7cb1386331\core-1.1.0\AndroidManifest.xml:24:18-86
+37        android:debuggable="true"
+38        android:extractNativeLibs="false"
+39        android:icon="@drawable/ic_launcher"
+39-->C:\Users\user\Desktop\samsung-health-android-sdk-sample-stepdiary-20201103\stepdiary\app\src\main\AndroidManifest.xml:32:9-45
+40        android:label="@string/app_name"
+40-->C:\Users\user\Desktop\samsung-health-android-sdk-sample-stepdiary-20201103\stepdiary\app\src\main\AndroidManifest.xml:33:9-41
+41        android:testOnly="true"
+42        android:theme="@style/AppTheme" >
+42-->C:\Users\user\Desktop\samsung-health-android-sdk-sample-stepdiary-20201103\stepdiary\app\src\main\AndroidManifest.xml:34:9-40
+43        <meta-data
+43-->C:\Users\user\Desktop\samsung-health-android-sdk-sample-stepdiary-20201103\stepdiary\app\src\main\AndroidManifest.xml:35:9-37:98
+44            android:name="com.samsung.android.health.permission.read"
+44-->C:\Users\user\Desktop\samsung-health-android-sdk-sample-stepdiary-20201103\stepdiary\app\src\main\AndroidManifest.xml:36:13-70
+45            android:value="com.samsung.health.step_count;com.samsung.shealth.step_daily_trend" />
+45-->C:\Users\user\Desktop\samsung-health-android-sdk-sample-stepdiary-20201103\stepdiary\app\src\main\AndroidManifest.xml:37:13-95
+46
+47        <activity
+47-->C:\Users\user\Desktop\samsung-health-android-sdk-sample-stepdiary-20201103\stepdiary\app\src\main\AndroidManifest.xml:39:9-48:20
+48            android:name="com.samsung.android.app.stepdiary.StepDiaryActivity"
+48-->C:\Users\user\Desktop\samsung-health-android-sdk-sample-stepdiary-20201103\stepdiary\app\src\main\AndroidManifest.xml:40:13-46
+49            android:label="@string/app_name"
+49-->C:\Users\user\Desktop\samsung-health-android-sdk-sample-stepdiary-20201103\stepdiary\app\src\main\AndroidManifest.xml:41:13-45
+50            android:screenOrientation="portrait" >
+50-->C:\Users\user\Desktop\samsung-health-android-sdk-sample-stepdiary-20201103\stepdiary\app\src\main\AndroidManifest.xml:42:13-49
+51            <intent-filter>
+51-->C:\Users\user\Desktop\samsung-health-android-sdk-sample-stepdiary-20201103\stepdiary\app\src\main\AndroidManifest.xml:43:13-47:29
+52                <action android:name="android.intent.action.MAIN" />
+52-->C:\Users\user\Desktop\samsung-health-android-sdk-sample-stepdiary-20201103\stepdiary\app\src\main\AndroidManifest.xml:44:17-69
+52-->C:\Users\user\Desktop\samsung-health-android-sdk-sample-stepdiary-20201103\stepdiary\app\src\main\AndroidManifest.xml:44:25-66
+53
+54                <category android:name="android.intent.category.LAUNCHER" />
+54-->C:\Users\user\Desktop\samsung-health-android-sdk-sample-stepdiary-20201103\stepdiary\app\src\main\AndroidManifest.xml:46:17-77
+54-->C:\Users\user\Desktop\samsung-health-android-sdk-sample-stepdiary-20201103\stepdiary\app\src\main\AndroidManifest.xml:46:27-74
+55            </intent-filter>
+56        </activity>
+57    </application>
+58
+59</manifest>
