@@ -37,7 +37,7 @@
                                            
  애플리케이션 시작 화면 (1)             |  DashBoard (2)
 :------------------------------------:|:----------------------------------------:
-<img src = "./photo/main.png" width="35%">  | <img src = "./photo/dashboard.png" width="30%">
+<img src = "./photo/app_main.png" width="35%">  | <img src = "./photo/dashboard.png" width="30%">
 로그인, 회원가입                       |  상세정보, 걸음수, 심박수, 수면, 설문, 설정
 
 3. 로그인
